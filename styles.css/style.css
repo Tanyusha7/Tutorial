@@ -1,0 +1,193 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  width: 1406px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* HERO */
+
+.hero {
+  padding: 30px 0;
+}
+
+.title {
+  margin-top: 204px;
+  margin-bottom: 32px;
+
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 1;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #121212;
+}
+
+.btn {
+  padding: 9px 24px;
+  margin-bottom: 204px;
+
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #121212;
+
+  border-width: 0.8px;
+  border-style: solid;
+  border-color: inherit;
+
+  border-radius: 32px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.table-btn {
+  width: 167px;
+}
+
+.menu-btn {
+  width: 160px;
+}
+
+.restaurant-slider {
+  width: 50%;
+}
+
+.hero-desc {
+  min-width: 338px;
+  font-size: 14px;
+  line-height: 1.29;
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #121212;
+}
+
+/* RESTAURANT */
+
+.restaurant {
+  padding: 100px 0;
+}
+
+.restaurant-container {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+}
+
+.restaurant-list {
+  display: flex;
+  gap: 32px;
+  height: 389px;
+  list-style: none;
+}
+.restaurant-item {
+  display: block;
+
+  padding: 0;
+}
+
+.restaurant-desc {
+  max-width: 833px;
+}
+
+.restaurant-desc-text {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.restaurant-cooking {
+  width: 334px;
+}
+
+.restaurant-drinking {
+  width: 467px;
+}
+
+/* ----------MENU------- */
+
+.menu {
+  padding: 100px 0;
+  background-color: #121212;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  gap: 74px;
+}
+
+.menu-hot {
+  width: 515px;
+}
+
+.menu-title {
+  margin-bottom: 32px;
+  color: #f7f7f7;
+}
+.menu-item {
+  padding-bottom: 14px;
+  color: #f7f7f7;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.menu-item:not(:first-child) {
+  padding-top: 14px;
+}
+.menu-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-cont:nth-child(2n + 2) {
+  margin-top: 8px;
+}
+
+.menu-text {
+  max-width: 325px;
+}

@@ -1,13 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-  <h1>Hello</h1>  
-  <p>bjnlhluhugy</p>
-</body>
+
+    <!-- SIMPLELIGHTBOX -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.4/simple-lightbox.min.css"
+      integrity="sha512-ka1/Z+PCN6JAoOVT50Ujjhq74r3hE0r433lM5X3VlLmxXRRkAJIPSXiZlccGx6Syd56QW+rPoYaLHm5iIPthLg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--FONT FAMILY-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--normalize-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+
+    <!-- base styles-->
+
+    <link rel="stylesheet" href="./styles.css/style.css" />
+  </head>
+
+  <body>
+    <section class="hero">
+      <div class="container">
+        <h1 class="title">Restaurant</h1>
+        <button class="table-btn btn">book a table</button>
+        <button class="menu-btn btn">View a menu</button>
+        <div class="restaurant-slider gallery">
+          <a href="./img/restaurant/restaurant2x_1.jpg"
+            ><img src="./img/restaurant/restaurant1x_1.jpg" alt=""
+          /></a>
+          <a href="./img/restaurant/restaurant2x_2.jpg"
+            ><img src="./img/restaurant/restaurant1x_2.jpg" alt=""
+          /></a>
+          <a href="./img/restaurant/restaurant2x_3.jpg"
+            ><img src="./img/restaurant/restaurant1x_3.jpg" alt=""
+          /></a>
+          <a href="./img/restaurant/restaurant2x_4.jpg"
+            ><img src="./img/restaurant/restaurant1x_4.jpg" alt=""
+          /></a>
+          <a href="./img/restaurant/restaurant2x_5.jpg"
+            ><img src="./img/restaurant/restaurant1x_5.jpg" alt=""
+          /></a>
+          <a href="./img/restaurant/restaurant2x_6.jpg"
+            ><img src="./img/restaurant/restaurant1x_6.jpg" alt=""
+          /></a>
+        </div>
+        <p class="hero-desc">
+          Whether you're in the mood for a hearty breakfast, a light lunch, or a
+          <i>romantic dinner</i>, our menu has something for everyone.
+        </p>
+      </div>
+    </section>
+
+    <section class="restaurant">
+      <div class="container restaurant-container">
+        <h2 class="visually-hidden">Restaurant</h2>
+
+        <img
+          class="restaurant-img"
+          src="./img/shef.jpg"
+          alt="a man is cooking"
+          width="511px"
+          height="598px"
+        />
+        <div class="restaurant-desc">
+          <ul class="restaurant-list list">
+            <li class="restaurant-item">
+              <img
+                src="./img/meat.jpg"
+                alt="pits of meat"
+                width="334px"
+                max-height="389px"
+              />
+            </li>
+            <li class="restaurant-item">
+              <img
+                src="./img/drinks.jpg"
+                alt="cup of a drinks"
+                width="467px"
+                max-height="389px"
+              />
+            </li>
+          </ul>
+          <div class="restaurant-desc-text">
+            <p class="restaurant-cooking section-text">
+              At Mimino, we are experts in meat preparation. Our chefs use only
+              the finest and freshest ingredients to create delicious dishes
+              that showcase the flavors of premium cuts of meat.
+            </p>
+            <p class="restaurant-drinking section-text">
+              Our slow-cooking process and expert seasoning bring out the best
+              in each dish, making for an unforgettable dining experience. Come
+              taste the magic of meat preparation at Mimino.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu">
+      <div class="container menu-container">
+        <div class="menu-hot">
+          <h2 class="menu-title">Hot meals</h2>
+          <ul class="menu-list list">
+            <li class="menu-item">
+              <div class="menu-cont">
+                <p>Veal borscht with beans</p>
+                <p>400 g</p>
+              </div>
+              <div class="menu-cont">
+                <p class="menu-text">
+                  Veal, potatoes, cabbage, carrots, onions, beans, garlic,
+                  tomatoes, greens, sour cream
+                </p>
+                <p>240 UAH</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-cont">
+                <p>Cheese soup with chicken</p>
+                <p>400 g</p>
+              </div>
+              <div class="menu-cont">
+                <p class="menu-text">
+                  Chicken, potatoes, carrots, onions, mushrooms, soft cheese,
+                  greens
+                </p>
+                <p>200 UAH</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-cont">
+                <p>Carbonara pasta</p>
+                <p>400 g</p>
+              </div>
+              <div class="menu-cont">
+                <p class="menu-text">
+                  Tagliatelle pasta, bacon, cream, Parmesan cheese, egg, greens
+                </p>
+                <p>430 UAH</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-cont">
+                <p>Pork steak</p>
+                <p>400 g</p>
+              </div>
+              <div class="menu-cont">
+                <p class="menu-text">
+                  Pork tenderloin, spices, served with sweet chili sauce and
+                  vegetables
+                </p>
+                <p>500 UAH</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-cont">
+                <p>Gorbusha in white wine sauce</p>
+                <p>400 g</p>
+              </div>
+              <div class="menu-cont">
+                <p class="menu-text">
+                  Tender redfish, cream sauce based on white wine
+                </p>
+                <p>400 UAH</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-hot">
+          <h2 class="menu-title">Side dishes and snacks</h2>
+          <ul class="menu-list list">
+            <li class="menu-item">
+              <div class="menu-cont">
+                <p class="menu-dish">Baked vegetables</p>
+                <p>200 g</p>
+              </div>
+              <div class="menu-cont">
+                <p class="menu-text">Zucchini, pepper, tomato, eggplant</p>
+                <p>230 UAH</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-cont">
+                <p class="menu-dish">French fries</p>
+                <p>150 g</p>
+              </div>
+              <div class="menu-cont">
+                <p class="menu-text">Potatoes, tomato sauce</p>
+                <p>160 UAH</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-cont">
+                <p class="menu-dish">Peasant-style potatoes</p>
+                <p>150 g</p>
+              </div>
+              <div class="menu-cont">
+                <p class="menu-text">Potatoes, spices, spicy sauces</p>
+                <p>160 UAH</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-cont">
+                <p class="menu-dish">Crisp pickles from the barrel</p>
+                <p>250 g</p>
+              </div>
+              <div class="menu-cont">
+                <p class="menu-text">
+                  Salted cucumber, pickled tomato, sauerkraut, Korean carrot
+                </p>
+                <p>350 UAH</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-cont">
+                <p class="menu-dish">Chicken wings in honey sauce</p>
+                <p>400 g</p>
+              </div>
+              <div class="menu-cont">
+                <p class="menu-text">
+                  Chicken wings, mustard-honey sauce, served with carrots,
+                  celery and blue cheese sauce
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.4/simple-lightbox.min.js"
+      integrity="sha512-IKDNPsyNuvwDr8D2nIcJVgNFuj3XXdV0jJ5S6E+nYwl5RiLxrd51TnDJDN1lQJrVdF4K849Lizr12ZCZV81MoA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
 </html>
